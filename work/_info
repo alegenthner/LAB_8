@@ -1,0 +1,178 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/VHDL/LAB_8
+Eadder
+Z0 w1606269342
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/Alexandre/Documents/GitHub/LAB_8
+Z6 8C:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd
+Z7 FC:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd
+l0
+L6
+VfWPU0a<_;a<?0>V8klYF`1
+!s100 <[2eBaQGz3_cO0j5WZlJg3
+Z8 OV;C;10.3d;59
+32
+Z9 !s110 1606269486
+!i10b 1
+Z10 !s108 1606269486.025000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd|
+Z12 !s107 C:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 fWPU0a<_;a<?0>V8klYF`1
+l15
+L13
+VEn<O1kOZef6?Jb7YBEG^K3
+!s100 zD>m1OY9eD@efG[dh`O0f3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecompr
+Z15 w1606268945
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd
+Z17 FC:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd
+l0
+L6
+VlTzk2WKBh9VUU8U3^lCSz0
+!s100 hYcMBnYCjV[TzoR4jkRB<2
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1606269486.611000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd|
+Z20 !s107 C:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 5 compr 0 22 lTzk2WKBh9VUU8U3^lCSz0
+l17
+L13
+VO<G:5d=]h:VJ04XGMl1V[3
+!s100 okDSX8`=7dH>Qn3f7lIhg3
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Ecounter
+R15
+R1
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Alexandre/Documents/GitHub/LAB_8/COUNTER.vhd
+Z22 FC:/Users/Alexandre/Documents/GitHub/LAB_8/COUNTER.vhd
+l0
+L6
+V`bCj<^o;j:T9z]XH^7h6I3
+!s100 aVC6go9T>YgA:6znnF;>P2
+R8
+32
+Z23 !s110 1606269487
+!i10b 1
+Z24 !s108 1606269487.191000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Alexandre/Documents/GitHub/LAB_8/COUNTER.vhd|
+Z26 !s107 C:/Users/Alexandre/Documents/GitHub/LAB_8/COUNTER.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 `bCj<^o;j:T9z]XH^7h6I3
+l19
+L15
+VLj^W]4o`CYYh3iJD[V?^n0
+!s100 nZifEoiJ8=KSNQ;LoIF_20
+R8
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Ereg
+R15
+R3
+R4
+R5
+Z27 8C:/Users/Alexandre/Documents/GitHub/LAB_8/REG.vhd
+Z28 FC:/Users/Alexandre/Documents/GitHub/LAB_8/REG.vhd
+l0
+L4
+VURC:1@`d0Nc^f_1kkGOBn3
+!s100 5:E9SDbHj<?gSz8jlIinz3
+R8
+32
+Z29 !s110 1606269485
+!i10b 1
+Z30 !s108 1606269485.439000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Alexandre/Documents/GitHub/LAB_8/REG.vhd|
+Z32 !s107 C:/Users/Alexandre/Documents/GitHub/LAB_8/REG.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R3
+R4
+DEx4 work 3 reg 0 22 URC:1@`d0Nc^f_1kkGOBn3
+l16
+L14
+V^ToT;nlOAcjD4;?DmMn]>2
+!s100 j[716Y@NmN053]5Pc@<1R0
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R13
+R14
