@@ -8,16 +8,6 @@ Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Compiling entity COUNTER
 -- Compiling architecture behavior of COUNTER
 
-} {} {}} C:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Alexandre/Documents/GitHub/LAB_8/ADDER.vhd
-Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Compiling entity ADDER
--- Compiling architecture behavior of ADDER
-
 } {} {}} C:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Alexandre/Documents/GitHub/LAB_8/COMPR.vhd
 Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
