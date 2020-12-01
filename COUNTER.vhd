@@ -1,34 +1,30 @@
-library ieee ;
-use ieee.std_logic_1164.all ;
---use ieee.std_logic_arith.all;
-use ieee.std_logic_unsigned.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity COUNTER is
 
-	port(	control_clk	: in std_logic ;
+	port(	
+		control_clk	: in std_logic ;
 		control_rst	: in std_logic ;
 		control_en	: in std_logic ;
 		signal_c 	: out std_logic_vector(7 downto 0) 
-		);
+	);
 end COUNTER;
 
 architecture behavior of COUNTER is
 
-signal support : std_logic_vector(7 downto 0);
+signal count_buffer : std_logic_vector(7 downto 0);
 
 	begin
-		process
-			begin
-			wait until control_clk'EVENT and control_clk = '1' ;
-
-			if control_rst = '1' then
-				support <= "00000000";
-			else
-				if control_en = '1' then
-					support <= support + "00000001";
-				end if;					 
-			end if;
-			signal_c <= support;	
+		process(control_rst, control_clk, control_en)
+		begin
+			if (control_rst = '1') then
+				count_buffer <= (others=>'0');
+				signal_c     <= (others=>'0');
+			elsif (rising_edge(control_clk) and (control_en = '1')) then
+				count_buffer <= count_buffer + "00000001";
+				signal_c     <= count_buffer;				
+			end if;					 
 		end process;
 
 end behavior ;
